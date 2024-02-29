@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.linkstyle {
+	background-image: url("../img/a_bg.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border: 1px solid transparent;
+
+	display: block;
+	height: 150px;
+	width: 250px;
+}
+.linkstyle:hover {
+	border: 1px solid red;
+}
+a.link {
+	border: 1px solid red;
+	display: block;
+	width: 150px;
+	padding: 5px;
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+
+
+	
+
+}
